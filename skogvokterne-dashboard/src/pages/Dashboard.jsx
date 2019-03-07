@@ -8,7 +8,7 @@ class Dashboard extends React.Component {
     super(props);
 
     this.state = {
-
+      showRegistration: false,
     };
 
     this.map = React.createRef();
@@ -23,10 +23,15 @@ class Dashboard extends React.Component {
       <div>
         <div className="row">
           <div className="col-sm-6">
-          <OlMap ref={this.map} />
+            <OlMap ref={this.map} />
           {/* <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#sendRangerModal">Send the rangers!</button> */}
           </div>
           <div className="col-sm-6">
+            {this.state.showRegistration ? (
+              <div>Register!</div>
+            ) : (
+              <button className="btn btn-primary" onClick={() => this.setState({ showRegistration: true })}>Register</button>
+            )}
             {/* <Modal
               modalId="sendRangerModal"
               title="Send the rangers!"

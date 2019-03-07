@@ -11,6 +11,8 @@ import Point from 'ol/geom/Point';
 import Style from 'ol/style/Style';
 import Icon from 'ol/style/Icon';
 
+import Settings from '../../Settings.json';
+
 class OlMap extends React.Component {
   constructor(props) {
     super(props);
@@ -29,7 +31,7 @@ class OlMap extends React.Component {
           }),
         ],
         view: new View({
-          center: fromLonLat([11,63]),
+          center: fromLonLat(Settings.centerLongLat),
           zoom: 5,
         }),
     });

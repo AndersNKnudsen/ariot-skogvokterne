@@ -1,3 +1,23 @@
+Skogvokterne presents
+
+## Skogvokter DASHBOARD
+
+Your first step to saving the forest.
+
+Reuse the impactful Skogvokter DASHBOARD from Ariot 2019 in your own local environmental efforts. Hook up the requests to your alert backend and get your new forest guard active in dealing with threats.
+
+Features:
+* OpenLayer map centered to your preferred position and zoom level
+* Icons displayed on the map indicating places of danger
+* Registration form to get your forest guard up fast
+
+Just change the settings file `Settings.json` with your setup and get out there saving the world's trees!
+
+After testing, compile the code and distribute the build folder to your favorite web host.
+
+## Create React App instructions
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
