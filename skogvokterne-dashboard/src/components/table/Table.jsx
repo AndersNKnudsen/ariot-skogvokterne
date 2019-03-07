@@ -6,7 +6,7 @@ const Table = props => (
     <tr>
       {props.headers.map(h => <th>{h.toString()}</th>)}
     </tr>
-      {props.rows.map(r => <tr>{r.values.map(v => <td>{v.toString()}</td>)}</tr>)}
+      {props.rows.map(r => <tr onClick={props.onClick}>{r.values.map(v => <td>{v.toString()}</td>)}</tr>)}
   </table>
 );
 
