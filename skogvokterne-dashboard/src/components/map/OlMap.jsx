@@ -32,7 +32,7 @@ class OlMap extends React.Component {
         ],
         view: new View({
           center: fromLonLat(Settings.centerLongLat),
-          zoom: 5,
+          zoom: Settings.mapInitialZoom,
         }),
     });
   }

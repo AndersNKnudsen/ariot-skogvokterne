@@ -1,4 +1,5 @@
 {
   "api": "Insert here",
-  "centerLongLat": [11,61]
+  "centerLongLat": [11,61],
+  "mapInitialZoom": 5
 }
