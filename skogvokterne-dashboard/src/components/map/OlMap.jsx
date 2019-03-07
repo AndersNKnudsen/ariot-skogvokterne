@@ -50,9 +50,9 @@ class OlMap extends React.Component {
           anchor: [0.5, 1],
           anchorXUnits: 'fraction',
           anchorYUnits: 'fraction',
-          scale: 0.4,
-          fill: 'red',
-          src: `${window.location.origin}/img/alert.png`
+          scale: 0.5,
+          // color: '#FF8000',
+          src: `${window.location.origin}/img/alert.svg`
         })),
       });
       feature.setStyle(style);
