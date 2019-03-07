@@ -51,6 +51,7 @@ class OlMap extends React.Component {
           anchorXUnits: 'fraction',
           anchorYUnits: 'fraction',
           scale: 0.4,
+          fill: 'red',
           src: `${window.location.origin}/img/alert.png`
         })),
       });
