@@ -4,7 +4,7 @@ Skogvokterne presents
 
 Your first step to saving the forest.
 
-[Happy Trees](https://gb.fotolibra.com/images/larger-thumbnails/34958.jpeg)
+[[https://github.com/AndersNKnudsen/ariot-skogvokterne/tree/master/skogvokterne-dashboard/readme/tree.png|alt=happytree]]
 
 Reuse the impactful Skogvokter DASHBOARD from Ariot 2019 in your own local environmental efforts. Hook up the requests to your alert backend and get your new forest guard active in dealing with threats.
 
