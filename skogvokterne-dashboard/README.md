@@ -25,7 +25,7 @@ This code is distributed with the MIT license.
 
 OpenLayers code is licensed under the [2-Clause BSD](https://tldrlegal.com/license/bsd-2-clause-license-(freebsd)).
 
-## Getting started instructions
+## Getting started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
