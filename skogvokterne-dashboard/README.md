@@ -4,7 +4,7 @@ Skogvokterne presents
 
 Your first step to saving the forest.
 
-### The Skogvokter Dashboard is an interface for an alert API and registration of forest guards. It displays on a map alerts made by the sensors in the forest for quick overview of problem areas.
+`The Skogvokter Dashboard is an interface for an alert API and registration of forest guards. It displays on a map alerts made by the sensors in the forest for quick overview of problem areas. This project helps get you up running quickly with a website.`
 
 Reuse the impactful Skogvokter DASHBOARD from Ariot 2019 in your own local environmental efforts. Hook up the requests to your alert backend and get your new forest guard active in dealing with threats.
 
