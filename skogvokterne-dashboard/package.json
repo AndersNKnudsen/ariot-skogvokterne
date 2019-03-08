@@ -1,7 +1,7 @@
 {
   "name": "skogvokterne-dashboard",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "node-sass": "^4.11.0",
     "ol": "^5.1.3",

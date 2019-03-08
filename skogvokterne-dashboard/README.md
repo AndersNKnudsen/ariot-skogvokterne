@@ -4,6 +4,8 @@ Skogvokterne presents
 
 Your first step to saving the forest.
 
+### The Skogvokter Dashboard is an interface for an alert API and registration of forest guards. It displays on a map alerts made by the sensors in the forest for quick overview of problem areas.
+
 Reuse the impactful Skogvokter DASHBOARD from Ariot 2019 in your own local environmental efforts. Hook up the requests to your alert backend and get your new forest guard active in dealing with threats.
 
 Features:
@@ -15,8 +17,13 @@ Just change the settings file `Settings.json` with your setup and get out there 
 
 After testing, compile the code and distribute the build folder to your favorite web host.
 
-## Create React App instructions
+## License
 
+This code is distributed with the MIT license.
+
+Open Layers code is licensed under the [2-Clause BSD]("https://tldrlegal.com/license/bsd-2-clause-license-(freebsd)").
+
+## Getting started instructions
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -62,27 +69,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

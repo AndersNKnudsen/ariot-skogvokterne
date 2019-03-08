@@ -2,6 +2,7 @@ import React from 'react';
 import Table from '../components/table/Table';
 import Modal from '../components/modal/Modal';
 import OlMap from '../components/map/OlMap';
+import RegistrationForm from '../components/registration/RegistrationForm';
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -28,7 +29,10 @@ class Dashboard extends React.Component {
           </div>
           <div className="col-sm-6">
             {this.state.showRegistration ? (
-              <div>Register!</div>
+              <RegistrationForm
+                onClickSecondary={() => this.setState({ showRegistration: false })}
+                onClickPrimary={() => console.log("Register!")}
+              />
             ) : (
               <button className="btn btn-primary" onClick={() => this.setState({ showRegistration: true })}>Register</button>
             )}
