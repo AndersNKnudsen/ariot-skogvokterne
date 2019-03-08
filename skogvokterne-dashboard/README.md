@@ -21,7 +21,7 @@ After testing, compile the code and distribute the build folder to your favorite
 
 This code is distributed with the MIT license.
 
-Open Layers code is licensed under the [2-Clause BSD]("https://tldrlegal.com/license/bsd-2-clause-license-(freebsd)").
+OpenLayers code is licensed under the [2-Clause BSD](https://tldrlegal.com/license/bsd-2-clause-license-(freebsd)).
 
 ## Getting started instructions
 
