@@ -20,6 +20,7 @@ class OlMap extends React.Component {
 
     this.addLayer = this.addLayer.bind(this);
     this.addAlertsToMap = this.addAlertsToMap.bind(this);
+    this.onMapClick = this.onMapClick.bind(this);
   }
   
   componentDidMount() {
@@ -35,16 +36,26 @@ class OlMap extends React.Component {
           zoom: Settings.mapInitialZoom,
         }),
     });
+
+    this.map.on('click', this.onMapClick, false);
+
+    this.props.alerts.length > 0 && this.addAlertsToMap(this.props.alerts);
+  }
+
+  onMapClick(evt) {
+    const feature = this.map.forEachFeatureAtPixel(evt.pixel, f => f, { hitTolerance: 3 });
+    if (feature) {
+      const name = feature.get('name');
+      this.props.onAlertClick(name);
+    }
   }
 
   addAlertsToMap(alerts) {
     const features = [];
     alerts.forEach(a => {
       const feature = new Feature({
-        geometry: new Point(fromLonLat([11,63])),
-        name: 'Alert',
-
-
+        geometry: new Point(fromLonLat([a.long,a.lat])),
+        name: a.name,
       });
       const style = new Style({
         text: '',
@@ -76,7 +87,7 @@ class OlMap extends React.Component {
 
   render() {
     return (
-      <div id="olmap" className="olmap" />
+      <div id="olmap" className="olmap" style={{ height: '100%' }} />
     );
   };
 }
